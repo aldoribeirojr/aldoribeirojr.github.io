@@ -2,7 +2,7 @@
 title: Losing admin access to your RDS Aurora MySQL
 description: >-
   Highlighting a serious problem that can occur when managing user accounts in a database managed service.
-author: Aldo
+author: Aldo Junior
 date: 2025-03-04 20:55:00 +0300
 categories: [MySQL]
 tags: [MySQL,Aurora]
