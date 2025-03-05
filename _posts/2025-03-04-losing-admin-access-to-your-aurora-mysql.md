@@ -4,8 +4,8 @@ description: >-
   Losing admin access to your RDS Aurora MySQL.
 author: Aldo Junior
 date: 2025-03-04 20:55:00 +0300
-categories: [RDS Aurora, AWS]
-tags: [aws,aurora]
+categories: [MySQL]
+tags: [MySQL,Aurora]
 pin: true
 media_subpath: '/posts/20180809'
 ---
