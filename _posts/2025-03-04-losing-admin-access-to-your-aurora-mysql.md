@@ -1,16 +1,20 @@
 ---
 title: Losing admin access to your RDS Aurora MySQL
 description: >-
-  Losing admin access to your RDS Aurora MySQL.
-author: Aldo Junior
+  Highlighting a serious problem that can occur when managing user accounts in a database managed service.
+author: Aldo
 date: 2025-03-04 20:55:00 +0300
 categories: [MySQL]
 tags: [MySQL,Aurora]
 pin: true
-media_subpath: '/posts/20180809'
+math: true
+mermaid: true
+image:
+  path: /commons/losing-admin-access-to-rds-aurora.png
+  lqip: data:image/webp;base64,UklGRpoAAABXRUJQVlA4WAoAAAAQAAAADwAABwAAQUxQSDIAAAARL0AmbZurmr57yyIiqE8oiG0bejIYEQTgqiDA9vqnsUSI6H+oAERp2HZ65qP/VIAWAFZQOCBCAAAA8AEAnQEqEAAIAAVAfCWkAALp8sF8rgRgAP7o9FDvMCkMde9PK7euH5M1m6VWoDXf2FkP3BqV0ZYbO6NA/VFIAAAA
+  alt: Losing admin access to your RDS Aurora MySQL.
+media_subpath: '/assets/'
 ---
-
-# Losing Admin Access to your RDS Aurora MySQL
 
 ## Introduction
 Amazon Web Services (AWS) is the largest cloud provider, with many enterprises choosing to deploy their applications and relational databases using managed services like Amazon RDS (Relational Database Service). Aurora for MySQL is a popular managed database service that is compatible with both MySQL on AWS and RDS MySQL. However, certain actions can lead to critical issues, such as accidentally locking the administrative account, which can render the database inaccessible.
